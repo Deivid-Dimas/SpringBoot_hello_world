@@ -7,8 +7,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/hello")
 public class HelloWorld {
 
-    @RequestMapping("/world")
+    @RequestMapping("/km")
     public String helloWorld() {
-        return "Hello World! from Aws EC2, thank you Deivid!";
+        return "Hello World! from Aws EC2, thank you Agile Engine and Kindred Motorworks!";
     }
 }
